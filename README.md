@@ -48,8 +48,7 @@ Follow the steps below to get the project running on your local machine.
 Start by cloning the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/faq-management.git
-cd faq-management
+git clone https://github.com/Vipul-28/faq-management-system
 ```
 
 ### Set Up Virtual Environment
