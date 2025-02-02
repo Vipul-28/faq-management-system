@@ -5,7 +5,7 @@ from .models import FAQ
 from .serializers import FAQSerializer
 
 class FAQPagination(PageNumberPagination):
-    page_size = 10  # Adjust this value as per your need
+    page_size = 10  
 
 class FAQViewSet(viewsets.ModelViewSet):
     queryset = FAQ.objects.all()

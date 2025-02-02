@@ -1,7 +1,7 @@
 from django.db import models
 from ckeditor.fields import RichTextField
 from django.core.cache import cache
-from utils.translation import translate_text  # Import the translation function
+from utils.translation import translate_text  
 
 class FAQ(models.Model):
     question = models.TextField()

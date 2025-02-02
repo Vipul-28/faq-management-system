@@ -1,9 +1,7 @@
 
-# utils/translation.py
 
 from googletrans import Translator
 
-# Initialize the translator object
 translator = Translator()
 
 def translate_text(text, target_language='en'):
@@ -17,9 +15,8 @@ def translate_text(text, target_language='en'):
     try:
         if not text:
             return text
-        # Perform translation
         translated = translator.translate(text, dest=target_language)
         return translated.text
     except Exception as e:
         print(f"Error translating text: {e}")
-        return text  # Fallback to the original text in case of error
+        return text
